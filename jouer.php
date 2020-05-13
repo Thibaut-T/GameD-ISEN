@@ -51,15 +51,15 @@ session_start();
 		</nav>
 	</div>
 
-	<div  class="float-left" style="margin-top: 20em; margin-left: 15em;">
-		<div id="divChrono" style="margin-left: 4.5em;">00:00</div>
-		<div style="margin-left: 2em;">
+	<div class="float-left" style="margin-top: 20%; margin-left: 10%;">
+		<div id="divChrono" style="margin-left: 8%; margin-bottom: 10%;">00:00</div>
+		<div style="margin-bottom: 10%; margin-right: 10%;">
 			<form id="formChrono">
 				<input type="button" class="btn btn-success mt-1" id="bStart" value="Start" onClick="fStart()" />
 				<input type="button" class="btn btn-danger mt-1" id="bStop" value="Stop" onClick="fStop()" />
 			</form>
 		</div>
-		<div style="margin-left: 3.8em; margin-top: 2em;">
+		<div style="margin-top: 2%; margin-left: -1.5%;">
 			<script type="text/javascript">
 				var playerLives = ['&#128154;', '&#128154;', '&#128154;'];
 				var hearts = playerLives.join("");
@@ -69,7 +69,7 @@ session_start();
 	</div>
 	
 	
-	<div class="text-center float-left" style="margin-left: 18em; margin-top: 5em;">
+	<div class="text-center float-left" style="margin-left: 6.5%; margin-top: 5%;">
 		<canvas id="zone" width="600" height="600" style="background-color:#2c3e50;">Désolé, votre navigateur (ou sa version) ne prend pas en charge les "canvas".</canvas>
 		<script type="text/javascript">
 			var canvas = document.getElementById('zone');
