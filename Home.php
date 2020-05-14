@@ -92,7 +92,7 @@ session_start();
 						</div>
 					</div>
 				</div>
-				<button type="button" class="btn btn-light mb-5 rounded p-5">Create your own Picross</button>
+				<a href="create.php"><button type="button" class="btn btn-light mb-5 rounded p-5">Create your own Picross</button></a>
 				<button type="button" class="btn btn-danger rounded p-5">Random</button>
 			</div>
 		</div>
