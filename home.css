@@ -1,0 +1,6 @@
+#hover-only{
+	display: none;
+}
+#parent:hover #hover-only{
+	display: block;
+}
